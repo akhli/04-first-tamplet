@@ -1,0 +1,537 @@
+body{
+    margin: 0;
+}
+
+.header{
+    padding-top: 2%;
+    overflow: hidden;
+    
+}
+
+.circle{
+    color: tomato;
+    padding-left: 15%;
+    font-size: 20px;
+}
+
+.box{
+    color:blue;
+    font-size: 20px;
+}
+
+.text{
+    color: black;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.home{
+    color:black;
+    padding-left:15px;
+    padding-right: 15px;
+    font-size: 20px;
+    margin-left: 10%;
+    text-decoration: none;
+}
+.home:hover{
+    background-color: blue;
+    color: white;
+}
+
+.portfolio{
+    color:black;
+    padding-left:30px;
+    padding-right:30px;
+    font-size: 20px;
+    text-decoration: none;
+}
+.portfolio:hover{
+    background-color: blue;
+    color: white;
+}
+.about{
+    color:black;
+    padding-left:30px;
+    padding-right:30px;
+    font-size: 20px;
+    text-decoration: none;
+}
+.about:hover{
+    background-color: blue;
+    color: white;
+}
+.contact{
+    color:black;
+    padding-left:30px;
+    padding-right:30px;
+    font-size: 20px;
+    text-decoration: none;
+}
+.contact:hover{
+    color: white;
+    background-color: blue;
+}
+.blog{
+    color:black;
+    padding-left:30px;
+    padding-right:30px;
+    font-size: 20px;
+    text-decoration: none;
+}
+.blog:hover{
+    background-color: tomato;
+    color: white;
+}
+.search{
+    color:black;
+    padding-left:12%;
+    
+    font-size: 20px;
+    text-decoration: none;
+}
+.sbutton{
+    color: tomato;
+    font-size: 20px;
+}
+
+.bg{
+    width: 100%;
+    height: 600px;
+    background-image: url("bg2.jpg");
+    background-size: cover;
+    background-position: center center;
+    margin-top: 2%;
+}
+.heading{
+    text-align: center;
+    margin-top: 4%;
+    font-size: 60px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+}
+.bgc{
+   padding-top:30px;
+}
+.content{
+    text-align: center;
+    margin-top: 2%;
+    font-size: 20px;
+    color: white;
+}
+.button{
+    background-color:tomato;
+    text-transform: uppercase;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+    width: 15%;
+    font-size: 20px;
+    margin-left: 41%;
+    margin-top: 3%;
+    padding: 15px 25px;
+    text-align: center;
+    cursor: pointer;
+    border: none;
+    border-radius: 3px;
+}
+
+.our-services-button{
+    background-color:rgb(8, 186, 245);
+    text-transform: uppercase;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+    width: 10%;
+    font-size: 20px;
+    margin-left: 43.2%;
+    margin-top: 9.5%;
+    padding: 15px 20px;
+    text-align: center;
+    cursor: pointer;
+    border: none;
+    border-radius: 1px;
+}
+.card{
+    box-shadow: 0 4px 8px 0 rgb(146, 146, 146);
+    max-width: 300px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 5%;
+    margin-left: 11%;
+}
+.ab{
+    margin-top: 10%;
+}
+.ac{
+    margin-top: 3%;
+}
+
+.flex{
+    display: flex;
+}
+.card2{
+    box-shadow: 0 4px 8px 0 rgb(146, 146, 146);
+    max-width: 300px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 5%;
+    margin-left: 5%;
+}
+.abb{
+    margin-top: 10%;
+}
+.acc{
+    margin-top: 3%;
+}
+
+.card3{
+    box-shadow: 0 4px 8px 0 rgb(146, 146, 146);
+    max-width: 300px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 5%;
+    margin-left: 5%;
+}
+.abbb{
+    margin-top: 10%;
+}
+.accc{
+    margin-top: 3%;
+}
+
+.card4{
+    box-shadow: 0 4px 8px 0 rgb(146, 146, 146);
+    max-width: 300px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 5%;
+    margin-left: 5%;
+}
+.abbbb{
+    margin-top: 10%;
+}
+.acccc{
+    margin-top: 3%;
+}
+
+.porto{
+    background-color: rgb(49, 49, 70);
+    width: 100%;
+    height: 770px;
+    margin-top: 5%;
+}
+
+.z{
+    padding-top: 30px;
+}
+
+.z1{
+    color: tomato;
+    font-size: 30px;
+    margin-left: 11%;
+    margin-top: 6;
+}
+.more{
+    margin-bottom:5%;
+    margin-left: 83%;
+    padding: 8px 15px;
+    background-color: tomato;
+}
+
+.empty-img{
+    width: 350px;
+    margin-left: 11%;
+}
+
+.empty-images-content{
+    display: flex;
+}
+
+.empty-img-content{
+    margin-left:11% ;
+    padding-top: 1%;
+}
+.empty-img-heading1{
+    color: tomato;  
+}
+.empty-img-para1{
+    color: white;
+    letter-spacing: 1px;
+}
+
+.empty-img-content2{
+    margin-left:13%;
+    padding-top: 1%;
+}
+.empty-img-heading2{
+    color: tomato;  
+}
+.empty-img-para2{
+    color: white;
+    letter-spacing: 1px;
+}
+
+.empty-img-content3{
+    margin-left:14%;
+    padding-top: 1%;
+}
+.empty-img-heading3{
+    color: tomato;  
+}
+.empty-img-para3{
+    color: white;
+    letter-spacing: 1px;
+}
+
+.offer-heading{
+    text-align: center;
+    color: rgb(8, 186, 245);
+    text-transform: uppercase;
+    font-size: 40px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.offer-para{
+    text-align: center;
+    letter-spacing: 1px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.offer-float{
+    display: flex;
+}
+.offers{
+    margin-left: 11%;
+    margin-top: 4%;
+    
+}
+.offer-web-design{
+    color:rgb(8, 186, 245);
+}
+.offer-web-para{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.offer-web-button{
+    padding: 6px 15px;
+    background-color: rgb(2, 138, 184);
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-left: 80%;
+}
+
+.offers2{
+    margin-left: 3%;
+    margin-top: 4%;
+    float: left;
+}
+
+
+.offer-search-detail{
+       text-decoration: none;
+       color:rgb(8, 186, 245);
+       font-size: 20px;
+}
+
+.offers3{
+    margin-left: 3%;
+    margin-top: 4%;
+    float: left;
+}
+
+
+.offers4{
+    margin-left: 3%;
+    margin-top: 4%;
+    float: left;
+}
+
+.testmony-heading{
+    text-align: center;
+    color:rgb(8, 186, 245);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.testmony-para{
+    text-align: center;
+    letter-spacing: 1px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-top: 3%;
+    font-size: 20px;
+}
+
+.john-doe{
+    text-align: center;
+    color: tomato;
+    font-size:23px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-top: 5%;
+}
+
+.john-doe-images{
+    margin-left: 45%;
+    margin-top: 5%;
+}
+
+.john-doe-line-images{
+    margin-left: 45%;
+    margin-top: 1%;
+}
+
+.footer-background{
+    background-color: rgb(49, 49, 70);
+    width: 100%;
+    height: 700px;
+    margin-top: 51.1%;
+}
+.footer-heading{
+    color: tomato;
+    display: flex;
+    margin-left: 11%;
+    padding-top: 2%;
+}
+
+.news-letter{
+    margin-left:3%;
+}
+
+.recent-projects{
+    margin-left: 3%;
+}
+
+.contacts{
+    margin-left: 10%;
+}
+
+.check-heading{
+    color: white;
+    letter-spacing: 3px;
+    font-size: 17px;
+}
+
+.link-test{
+    color: rgb(102, 102, 228);
+    text-decoration: none;
+    letter-spacing: 2px;
+}
+
+.two-week{
+    letter-spacing: 2px;
+    color: white;
+    margin-bottom: -1%;
+}
+
+
+.check-theme{
+    color: white;
+    letter-spacing: 3px;
+    font-size: 17px;
+}
+
+.check-theme-you{
+    color: white;
+    letter-spacing:3px;
+    font-size:17px;
+}
+
+.news-letter-para{
+    color: white;
+    letter-spacing: 0px;
+    padding-top: 1%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+.news-letter-link{
+    color:rgb(102, 102, 228);
+    text-decoration: none;
+    letter-spacing: 2px;
+    margin-top: 15%;
+    
+}
+
+.news-letter-text-box{
+    margin-top: 10%;
+    padding: 10px 100px;
+}
+
+.news-letter-button{
+    padding: 6px 15px;
+    background-color: rgb(2, 138, 184);
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-top: 10%;
+    margin-left: 80%;
+}
+ 
+.recent-projects{
+    margin-top:0.1%;
+}
+.div-for-input-box{
+    background-color: white;
+    width: 100px;
+    height: 100px;
+}
+
+.border-box-text{
+    float: left;
+    margin-left:108%;
+    
+    
+}
+.border-box-text1{
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.border-box-link{
+    color: rgb(102, 102, 228);
+    letter-spacing: 1px;
+    text-decoration: none;
+}
+.border-box-text2{
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+.number1{
+    color: white;
+    
+}
+.number2{
+    color: white;
+}
+.contact-text{
+    margin-left:50px;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
